@@ -1,9 +1,8 @@
+import useRouteCustom from "./routes/useRouteCustom"
+
 function App() {
-  return (
-    <>
-      
-    </>
-  )
+  const myRoutes = useRouteCustom
+  return myRoutes
 }
 
 export default App
